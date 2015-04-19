@@ -14,6 +14,9 @@
 		EA1D13451AE3DA5C000C3D84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1D13441AE3DA5C000C3D84 /* Images.xcassets */; };
 		EA1D13481AE3DA5C000C3D84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1D13461AE3DA5C000C3D84 /* LaunchScreen.xib */; };
 		EA1D13541AE3DA5C000C3D84 /* ChihayatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D13531AE3DA5C000C3D84 /* ChihayatterTests.m */; };
+		EA1D135E1AE3DADB000C3D84 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1D135D1AE3DADB000C3D84 /* Social.framework */; };
+		EA1D13621AE3DC98000C3D84 /* chihaya.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1D13611AE3DC98000C3D84 /* chihaya.png */; };
+		EA1D13671AE3DFDF000C3D84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1D13661AE3DFDF000C3D84 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		EA1D134D1AE3DA5C000C3D84 /* ChihayatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChihayatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1D13521AE3DA5C000C3D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA1D13531AE3DA5C000C3D84 /* ChihayatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChihayatterTests.m; sourceTree = "<group>"; };
+		EA1D135D1AE3DADB000C3D84 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EA1D13611AE3DC98000C3D84 /* chihaya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chihaya.png; sourceTree = "<group>"; };
+		EA1D13661AE3DFDF000C3D84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1D13671AE3DFDF000C3D84 /* QuartzCore.framework in Frameworks */,
+				EA1D135E1AE3DADB000C3D84 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,8 @@
 		EA1D132B1AE3DA5B000C3D84 = {
 			isa = PBXGroup;
 			children = (
+				EA1D13661AE3DFDF000C3D84 /* QuartzCore.framework */,
+				EA1D135D1AE3DADB000C3D84 /* Social.framework */,
 				EA1D13361AE3DA5C000C3D84 /* Chihayatter */,
 				EA1D13501AE3DA5C000C3D84 /* ChihayatterTests */,
 				EA1D13351AE3DA5C000C3D84 /* Products */,
@@ -88,6 +98,7 @@
 				EA1D13411AE3DA5C000C3D84 /* Main.storyboard */,
 				EA1D13441AE3DA5C000C3D84 /* Images.xcassets */,
 				EA1D13461AE3DA5C000C3D84 /* LaunchScreen.xib */,
+				EA1D13611AE3DC98000C3D84 /* chihaya.png */,
 				EA1D13371AE3DA5C000C3D84 /* Supporting Files */,
 			);
 			path = Chihayatter;
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1D13431AE3DA5C000C3D84 /* Main.storyboard in Resources */,
+				EA1D13621AE3DC98000C3D84 /* chihaya.png in Resources */,
 				EA1D13481AE3DA5C000C3D84 /* LaunchScreen.xib in Resources */,
 				EA1D13451AE3DA5C000C3D84 /* Images.xcassets in Resources */,
 			);
