@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1D133A1AE3DA5C000C3D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D13391AE3DA5C000C3D84 /* main.m */; };
+		EA1D133D1AE3DA5C000C3D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D133C1AE3DA5C000C3D84 /* AppDelegate.m */; };
+		EA1D13401AE3DA5C000C3D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D133F1AE3DA5C000C3D84 /* ViewController.m */; };
+		EA1D13431AE3DA5C000C3D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1D13411AE3DA5C000C3D84 /* Main.storyboard */; };
+		EA1D13451AE3DA5C000C3D84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1D13441AE3DA5C000C3D84 /* Images.xcassets */; };
+		EA1D13481AE3DA5C000C3D84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1D13461AE3DA5C000C3D84 /* LaunchScreen.xib */; };
+		EA1D13541AE3DA5C000C3D84 /* ChihayatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D13531AE3DA5C000C3D84 /* ChihayatterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1D134E1AE3DA5C000C3D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1D132C1AE3DA5C000C3D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1D13331AE3DA5C000C3D84;
+			remoteInfo = Chihayatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1D13341AE3DA5C000C3D84 /* Chihayatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chihayatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1D13381AE3DA5C000C3D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1D13391AE3DA5C000C3D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA1D133B1AE3DA5C000C3D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA1D133C1AE3DA5C000C3D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA1D133E1AE3DA5C000C3D84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA1D133F1AE3DA5C000C3D84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA1D13421AE3DA5C000C3D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA1D13441AE3DA5C000C3D84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA1D13471AE3DA5C000C3D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA1D134D1AE3DA5C000C3D84 /* ChihayatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChihayatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1D13521AE3DA5C000C3D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1D13531AE3DA5C000C3D84 /* ChihayatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChihayatterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1D13311AE3DA5C000C3D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1D134A1AE3DA5C000C3D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1D132B1AE3DA5B000C3D84 = {
+			isa = PBXGroup;
+			children = (
+				EA1D13361AE3DA5C000C3D84 /* Chihayatter */,
+				EA1D13501AE3DA5C000C3D84 /* ChihayatterTests */,
+				EA1D13351AE3DA5C000C3D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1D13351AE3DA5C000C3D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D13341AE3DA5C000C3D84 /* Chihayatter.app */,
+				EA1D134D1AE3DA5C000C3D84 /* ChihayatterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1D13361AE3DA5C000C3D84 /* Chihayatter */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D133B1AE3DA5C000C3D84 /* AppDelegate.h */,
+				EA1D133C1AE3DA5C000C3D84 /* AppDelegate.m */,
+				EA1D133E1AE3DA5C000C3D84 /* ViewController.h */,
+				EA1D133F1AE3DA5C000C3D84 /* ViewController.m */,
+				EA1D13411AE3DA5C000C3D84 /* Main.storyboard */,
+				EA1D13441AE3DA5C000C3D84 /* Images.xcassets */,
+				EA1D13461AE3DA5C000C3D84 /* LaunchScreen.xib */,
+				EA1D13371AE3DA5C000C3D84 /* Supporting Files */,
+			);
+			path = Chihayatter;
+			sourceTree = "<group>";
+		};
+		EA1D13371AE3DA5C000C3D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D13381AE3DA5C000C3D84 /* Info.plist */,
+				EA1D13391AE3DA5C000C3D84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA1D13501AE3DA5C000C3D84 /* ChihayatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D13531AE3DA5C000C3D84 /* ChihayatterTests.m */,
+				EA1D13511AE3DA5C000C3D84 /* Supporting Files */,
+			);
+			path = ChihayatterTests;
+			sourceTree = "<group>";
+		};
+		EA1D13511AE3DA5C000C3D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D13521AE3DA5C000C3D84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1D13331AE3DA5C000C3D84 /* Chihayatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1D13571AE3DA5C000C3D84 /* Build configuration list for PBXNativeTarget "Chihayatter" */;
+			buildPhases = (
+				EA1D13301AE3DA5C000C3D84 /* Sources */,
+				EA1D13311AE3DA5C000C3D84 /* Frameworks */,
+				EA1D13321AE3DA5C000C3D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chihayatter;
+			productName = Chihayatter;
+			productReference = EA1D13341AE3DA5C000C3D84 /* Chihayatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA1D134C1AE3DA5C000C3D84 /* ChihayatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1D135A1AE3DA5C000C3D84 /* Build configuration list for PBXNativeTarget "ChihayatterTests" */;
+			buildPhases = (
+				EA1D13491AE3DA5C000C3D84 /* Sources */,
+				EA1D134A1AE3DA5C000C3D84 /* Frameworks */,
+				EA1D134B1AE3DA5C000C3D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1D134F1AE3DA5C000C3D84 /* PBXTargetDependency */,
+			);
+			name = ChihayatterTests;
+			productName = ChihayatterTests;
+			productReference = EA1D134D1AE3DA5C000C3D84 /* ChihayatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1D132C1AE3DA5C000C3D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Tomonori Ohba";
+				TargetAttributes = {
+					EA1D13331AE3DA5C000C3D84 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EA1D134C1AE3DA5C000C3D84 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EA1D13331AE3DA5C000C3D84;
+					};
+				};
+			};
+			buildConfigurationList = EA1D132F1AE3DA5C000C3D84 /* Build configuration list for PBXProject "Chihayatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1D132B1AE3DA5B000C3D84;
+			productRefGroup = EA1D13351AE3DA5C000C3D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1D13331AE3DA5C000C3D84 /* Chihayatter */,
+				EA1D134C1AE3DA5C000C3D84 /* ChihayatterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1D13321AE3DA5C000C3D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1D13431AE3DA5C000C3D84 /* Main.storyboard in Resources */,
+				EA1D13481AE3DA5C000C3D84 /* LaunchScreen.xib in Resources */,
+				EA1D13451AE3DA5C000C3D84 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1D134B1AE3DA5C000C3D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1D13301AE3DA5C000C3D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1D13401AE3DA5C000C3D84 /* ViewController.m in Sources */,
+				EA1D133D1AE3DA5C000C3D84 /* AppDelegate.m in Sources */,
+				EA1D133A1AE3DA5C000C3D84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1D13491AE3DA5C000C3D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1D13541AE3DA5C000C3D84 /* ChihayatterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1D134F1AE3DA5C000C3D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1D13331AE3DA5C000C3D84 /* Chihayatter */;
+			targetProxy = EA1D134E1AE3DA5C000C3D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA1D13411AE3DA5C000C3D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1D13421AE3DA5C000C3D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA1D13461AE3DA5C000C3D84 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1D13471AE3DA5C000C3D84 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1D13551AE3DA5C000C3D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA1D13561AE3DA5C000C3D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1D13581AE3DA5C000C3D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chihayatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA1D13591AE3DA5C000C3D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chihayatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA1D135B1AE3DA5C000C3D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChihayatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chihayatter.app/Chihayatter";
+			};
+			name = Debug;
+		};
+		EA1D135C1AE3DA5C000C3D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChihayatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chihayatter.app/Chihayatter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1D132F1AE3DA5C000C3D84 /* Build configuration list for PBXProject "Chihayatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1D13551AE3DA5C000C3D84 /* Debug */,
+				EA1D13561AE3DA5C000C3D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1D13571AE3DA5C000C3D84 /* Build configuration list for PBXNativeTarget "Chihayatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1D13581AE3DA5C000C3D84 /* Debug */,
+				EA1D13591AE3DA5C000C3D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA1D135A1AE3DA5C000C3D84 /* Build configuration list for PBXNativeTarget "ChihayatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1D135B1AE3DA5C000C3D84 /* Debug */,
+				EA1D135C1AE3DA5C000C3D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1D132C1AE3DA5C000C3D84 /* Project object */;
+}
